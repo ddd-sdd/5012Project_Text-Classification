@@ -32,16 +32,16 @@ Operating insructions:
 ##### BERT <br>
 ###### Download of pre-trained model <br>
 The bert model is placed in the bert_pretain directory. There are three files in the directory:
-* pytorch_model.bin
-* bert_config.json
-* vocab.txt
+ * pytorch_model.bin
+ * bert_config.json
+ * vocab.txt
 
 download link:<br>
 https://github.com/huggingface/transformers, <br>
 bert_Chinese model: https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz <br>
 vocab:https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt <br>
-After decompression, put it in the corresponding directory as mentioned above and confirm the file name is correct.
-
+After decompression, put it in the corresponding directory as mentioned above and confirm the file name is correct.<br>
+##### Run the program<br>
 `cd Text-Classification-BERT` <br>
 <br>
 #train and test on BERT
